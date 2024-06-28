@@ -1,0 +1,1 @@
+#mag dros ar viyavi goashi

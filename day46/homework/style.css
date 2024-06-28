@@ -1,0 +1,11 @@
+main{
+    color: white;
+}
+
+#rcorner{
+    border-radius: 25px;
+    border: 2px solid #1900ff;
+    padding: 30px; 
+    width: 200px;
+    height: 200px;
+}

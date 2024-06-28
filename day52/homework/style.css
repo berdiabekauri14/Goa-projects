@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(30, 30, 30);
+    background: #303030;
+    padding: 10px 0;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+.log-sign {
+    border-radius: 50px;
+}
+
+.enter {
+    border-radius: 50px;
+}
+
+.enter:hover {
+    background-color: black;
+    color: white;
+}
+
+.enter:active {
+    background-color: white;
+    color: black;
+}
+
+#log-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#log-button:active {
+    background-color: aqua;
+    color: black;
+}
+
+#sign-button {
+    background-color: blue;
+    color: white;
+}
+
+code {
+    text-align: center;
+    color: white;
+}
+
+.comment {
+    text-align: center;
+    color: green;
+}
+
+#Printing {
+    background: #1f1f1f;
+    border: 5px solid #1f1f1f;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#variables {
+    background: #1f1f1f;
+    border: 5px solid #1f1f1f;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#comments {
+    background: #1f1f1f;
+    border: 5px solid #1f1f1f;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+    background: #303030;
+    padding: 10px 0;
+}

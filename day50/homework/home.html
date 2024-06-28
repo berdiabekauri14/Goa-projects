@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berdia site</title>
+
+    <link rel="website icon" type="png"
+    href="imgs/website icon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>Welcome to my site</h1>
+            <a href="signup.html">Sign up</a>
+            <a href="login.html">Log in</a>
+            <button type="button" onclick="document.getElementById('date').innerHTML = Date()">Click here to see the time</button>
+            <p id="date"></p>
+        </header>
+    </div>
+    <br>
+    <div class="main" id="about">
+        <main>
+            <h1>About me</h1>
+            <center><img src="imgs/me.png" alt="this is me" width="400"></center>
+            <p>my name is berdia bekauri</p>
+            <p>i am 11 years old</p>
+            <p>i am from georgia</p>
+            <p>i love programming and i study at goa oriented academy</p>
+            <p>i am a programmer, web developer, editor & designer</p>
+            <p>these are my programming langueges</p>
+            <ol>
+                <li>python</li>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ol>
+            <p>these are the country langueges i can speak</p>
+            <ul>
+                <li>georgian</li>
+                <li>russian</li>
+                <li>english</li>
+                <li>italian</li>
+            </ul>
+        </main>
+    </div>
+    <br>
+    <div class="main" id="contact">
+        <main>
+            <h1>Contact me</h1>
+            <h2>Got some problems to solve?</h2>
+            <center>
+                <form>
+                    <p>name</p>
+                    <input type="text" name="name" placeholder="enter your name" required>
+                    <p>email</p>
+                    <input type="email" name="email" placeholder="enter your email" required>
+                    <p>password</p>
+                    <input type="password" name="password" placeholder="enter your password" required>
+                    <p>messege</p>
+                    <input type="text" name="messege" placeholder="enter your messege" required>
+                    <br>
+                    <button type="submit">Enter</button>
+                </form>
+            </center>
+        </main>
+    </div>
+    <br>
+    <div class="footer">
+        <footer>
+            <p id="footer-p">©2024 Berdia</p>
+        </footer>
+    </div>
+</body>
+</html>

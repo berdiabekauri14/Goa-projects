@@ -1,0 +1,104 @@
+/* styling elements */
+
+#codes_in_python{
+    background: #252525;
+}
+
+h2{
+    color: white;
+}
+
+code{
+    color: white;
+}
+
+#line{
+    color: white;
+}
+
+#accounts{
+    background: fixed;
+    background-color: aqua;
+}
+
+.comment{
+    color: green;
+}
+
+.header{
+    background: #2f00ff;
+}
+
+#h1{
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+#python{
+    text-align: center;
+    color: white;
+}
+
+#Var{
+    color: white;
+}
+
+#head1{
+    color: white;
+}
+
+/* round corners */
+
+#printing{
+    border-radius: 25px;
+    background: #181818;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+}
+
+#Vars{
+    border-radius: 25px;
+    background: #181818;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+}
+
+#comment{
+    border-radius: 25px;
+    background: #181818;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+}
+
+#rcorner{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 200px;
+    height: 205px; 
+}
+
+/* changing incorrect colors to correct colors */
+
+#about{
+    background: white;
+}
+
+.footer{
+    background: white;
+}
+
+#contact{
+    background: white;
+}
+
+#h2{
+    color: black;
+}
