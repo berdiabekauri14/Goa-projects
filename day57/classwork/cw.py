@@ -1,0 +1,1 @@
+# codewars-ები გვქონდა: 8kyu, 7kyu, 6kyu
