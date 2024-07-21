@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.432);
+
+    position: relative;
+    left: 100%;
+    bottom: 60px;
+    
+    transition: 0.25s;
+}
+
+img {
+    position: relative;
+    left: 50px;
+}
+
+a:hover {
+    color: purple;
+
+    transition: 0.25s;
+}
+
+a:active {
+    color: purple;
+}
+
+.child {
+    position: fixed;
+}
+
+button {
+    background-color: purple;
+    color: white;
+
+    border-radius: 40px;
+
+    width: 100px;
+    height: 50px;
+
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: rgb(90, 0, 90);
+    
+    transition: 0.25s;
+}
+
+button:active {
+    background-color: rgb(90, 0, 90);
+}

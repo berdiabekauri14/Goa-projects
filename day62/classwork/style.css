@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    transform: translate(50px, 100px);
+    transition: 0.25s ease;
+    animation: Animation 2s 1;
+}
+
+.box:hover {
+    background-color: red;
+    transform: rotate(-180deg) translate(-500px, -50px);
+}
+
+@keyframes Animation {
+    from {
+        opacity: 0;
+        background-color: red;
+    }
+
+    to {
+        opacity: 100;
+        background-color: green;
+    }
+}

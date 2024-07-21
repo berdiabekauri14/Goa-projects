@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: black;
+    width: 1300;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    border: 2px solid white;
+
+    width: 900px;
+    height: 800px;
+}
+
+img {
+    position: relative;
+    left: 400px;
+    top: 300px;
+}
+
+.loading-bar {
+    border: 2px solid white;
+    width: 200px;
+    height: 10px;
+
+    position: relative;
+    top: 300px;
+    left: 350px;
+}
+
+.fill {
+    background-color: white;
+    width: 200px;
+    height: 10px;
+
+    position: relative;
+    top: 300px;
+    left: 350px;
+
+    animation: fill-animation 0.4s infinite;
+}
+
+@keyframes fill-animation{
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 200px;
+    }
+}
