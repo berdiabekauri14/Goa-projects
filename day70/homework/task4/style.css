@@ -1,0 +1,6 @@
+/* Create a form with a dropdown menu (select element) that has options like "Red," "Blue," and "Green." When the user selects an option, display the selected color in a <div> below the form. */
+#box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
