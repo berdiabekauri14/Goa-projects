@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
+}
+
+button {
+    position: relative;
+    left: 90px;
+    top: 10px;
+    background: rgb(159, 210, 255);
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.308);
+    cursor: pointer;
+    transition: 0.24s;
+}
+
+button:active {
+    transform: scale(0.90);
+    transition: 0.24s;
+}
