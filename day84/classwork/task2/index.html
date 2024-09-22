@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით ერთი სარეგისტრაციო ფორმა, სადაც გექნებათ მინიმუმ 5 შესატანი ველი, სახელი, გვარი, იმეილი პაროლი და საცხვორებელი ქალაქი, როდესაც ფორმა დადასტურდება მიღებუილი მონაცემებით უნდა იქმნდებოდეს ახალი ობიექტი კლასსის დახმარებით რომლის სახელიც არის Account შექმნილი ობიექტი კი უნდა ემატებოდეს მასივში სახელად accounts, დაამატეთ კლასს მეთოდი სახელად  printDetails რომელიც დაბეჭდავს კონკრეული ობიექტის ინფორმაციას რომელზეც გამოვიძახეთ -->
+    
+    <form id="form">
+        <input type="text" name="name" placeholder="enter your name" required/>
+        <input type="text" name="lastname" placeholder="enter your last name" required/>
+        <input type="email" name="email" placeholder="enter your email" required/>
+        <input type="password" name="password" placeholder="enter your password" required/>
+        <input type="text" name="city" placeholder="enter your city" required/>
+        <button id="btn" type="submit">submit</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
