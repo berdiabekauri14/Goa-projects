@@ -1,0 +1,12 @@
+{
+  "name": "to-do-list",
+  "version": "3.0.0",
+  "description": "To-do list project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Berdia Bekauri",
+  "license": "ISC"
+}

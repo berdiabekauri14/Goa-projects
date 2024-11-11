@@ -1,0 +1,1 @@
+// დავალებად გვქონდა რომ code academy-ზე Introduction to JSX-ი გაგვეარა
