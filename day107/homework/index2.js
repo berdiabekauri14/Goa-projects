@@ -8,8 +8,13 @@ let lastElement = arr[arr.length - 1];
 
 let lastElementIndex = arr.lastIndexOf(lastElement);
 
-if (lastElementIndex === arr.length - 1) {
-    console.log(lastElement);
-} else {
-    console.log('No such element');
+for (let i = 0; i < arr.length; i++) {
+    if (i === lastElementIndex) {
+        console.log(arr[i]);
+    } else if (lastElementIndex === -1) {
+        console.log('No element is repeated in the array');
+        break;
+    } else {
+        continue;
+    }
 }
