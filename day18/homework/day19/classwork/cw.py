@@ -1,1 +1,0 @@
-#vxatavdi da sololearns vaketebdi

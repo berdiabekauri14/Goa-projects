@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #შექმენით სია, სადაც შეიტანთ თქვენი ოჯახის წევრების სახელებს. გამოიყენეთ indexing და დაბეჭდეთ ყველას სახელი ცალ-ცალკე.
 
 #me
@@ -19,7 +19,7 @@ print(my_name, my_mothers_name, my_fathers_name, my_brothers1_name, my_brothers2
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(numbers[0], numbers[9])
-=======
+
 #შექმენით სია სადაც გექნებათ მოცემული 5 სახელი, index ების გამოყენებით დაბეჭდეთ ცალცალკე, dont use for cycle
 
 names = ['Berdia bekauri', 'Nika keshelava', 'Nika nutsubidze', 'Dato tyeshelashvili', 'Luka tshkveradze']
@@ -43,4 +43,3 @@ num2 = 1
 for i in range(1,10):
     num2 += i
 print(i)
->>>>>>> a38769fab819a2cd94d98b965d579ccfe2953b79

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #0-იდან 20-ის ჩათვლით გამოიტანეთ რიცხვები.
 for i in range(0,20):
     print(i)
@@ -19,7 +19,6 @@ for i in range(50,100):
 for i in range(0,50):
     i += i
 print(i)
-=======
 #0-იდან 20-ის ჩათვლით გამოიტანეთ რიცხვები.
 for i in range(0,20):
     print(i)
@@ -40,4 +39,3 @@ for i in range(50,100):
 for i in range(0,50):
     i += i
 print(i)
->>>>>>> a38769fab819a2cd94d98b965d579ccfe2953b79
