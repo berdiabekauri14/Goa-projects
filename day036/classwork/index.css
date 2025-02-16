@@ -1,0 +1,49 @@
+#1 {
+    color: red;
+    background-color: green;
+}
+
+#2 {
+    color: green;
+    background: red;
+}
+
+#3 {
+    color: blue;
+    background-color: red;
+}
+
+#4 {
+    color: red;
+    background-color: blue;
+}
+
+#5 {
+    color: green;
+    background: blue;
+}
+
+#6 {
+    color: blue;
+    background-color: green;
+}
+
+#7 {
+    color: red;
+    background-color: yellow;
+}
+
+#8 {
+    color: yellow;
+    background-color: red;
+}
+
+#9 {
+    color: greenyellow;
+    background: yellowgreen;
+}
+
+#10 {
+    color: yellowgreen;
+    background-color: greenyellow;
+}
