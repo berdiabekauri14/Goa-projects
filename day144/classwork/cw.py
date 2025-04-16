@@ -1,75 +1,24 @@
-# Codewars-ები გვქონდა გასაკეთებლად
+# Codewars
 
-# 1)
+def name_shuffler(str):
+    return " ".join(str.split(" ")[::-1])
 
-def say_hello(name):
-    return f"Hello, {name}"
+def get_real_floor(n):
+    if n <= 0: return n
+    if n < 13: return n - 1
+    if n > 13: return n - 2
 
-# 2)
+def xor(a, b):
+    return a != b
 
-# function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-#   return laLigaGoals + copaDelReyGoals + championsLeagueGoals
-# }
+def position(letter):
+    return "Position of alphabet: {}".format(ord(letter) - 96)
 
-# 3)
+def get_char(c):
+    return "%c" % c
 
-# function howMuchILoveYou(nbPetals) {
-#   if (nbPetals === 1) {
-#     return "I love you";
-#   } else if (nbPetals === 2) {
-#     return "a little";
-#   } else if (nbPetals === 3) {
-#     return "a lot";
-#   } else if (nbPetals === 4) {
-#     return "passionately";
-#   } else if (nbPetals === 5) {
-#     return "madly";
-#   } else {
-#     return "not at all"
-#   }
-# }
+def pipe_fix(nums):
+    return list(range(nums[0], nums[-1] + 1))
 
-# 4)
-
-def greet(language):
-    if language == 'english':
-        return "Welcome"
-    elif language == 'dutch':
-        return "Welkom"
-    elif language == 'IP_ADRESS_INVALID':
-        return "Welcome"
-    elif language == '':
-        return 'Welcome'
-    elif language == 'estonian':
-        return 'Tere tulemast'
-    elif language == 'danish':
-        return 'Velkomst'
-    elif language =='lithuanian':
-        return "Laukiamas"
-    elif language == 'welsh':
-        return 'Croeso'
-    elif language == 'french':
-        return 'Bienvenue'
-    elif language == 'german':
-        return 'Willkommen'
-    elif language == 'irish':
-        return 'Failte'
-    elif language == 'swedish':
-        return 'Valkommen'
-    elif language == 'spanish':
-        return 'Bienvenido'
-    elif language == 'italian':
-        return 'Benvenuto'
-    elif language == 'flemish':
-        return 'Welgekomen'
-    elif language == 'polish':
-        return 'Witamy'
-    elif language == 'finnish':
-        return 'Tervetuloa'
-    elif language == 'czech':
-        return 'Vitejte'
-    elif language == 'latvian':
-        return 'Gaidits'
-    
-    else:
-        return 'Welcome'
+def unusual_five():
+    return len("five!")
