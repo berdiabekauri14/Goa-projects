@@ -2,6 +2,12 @@ import Profile from "./components/Profile";
 
 export default function App() {
   return (
-    <Profile />
+    <>
+      <Profile />
+      <br />
+      <Profile />
+      <br />
+      <Profile />
+    </>
   )
 }
