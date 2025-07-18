@@ -1,5 +1,5 @@
 import React from "react"
-import { Route, Routes } from "react-router"
+import { Link, Route, Routes } from "react-router"
 import About from "./About"
 import Registrer from "./Registrer"
 import Profile from "./Profile"
