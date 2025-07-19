@@ -5,13 +5,13 @@ import Profile from "./Profile"
 import React from "react";
 
 export default React.memo(function Registrer() {
-    const handleSubmit = (e) => {
+    const handleSubmit = e => {
         e.preventDefault()
 
         const formData = {
-            email: e.target.email.value,
-            name: e.target.name.value,
-            password: e.target.password.value
+            email: e.target.form.email.value,
+            name: e.target.form.name.value,
+            password: e.target.form.password.value
         }
 
         if (formData.email === "" || formData.name === "" || formData.password === "") {
@@ -40,12 +40,12 @@ export default React.memo(function Registrer() {
 
             <form action={<Routes>
                 <Route path="/day153/homework/src/pages/Home.jsx" element={<Home />} />
-            </Routes>}>
-                <input className=" border-2 p-2 m-2" type="email" name="email" placeholder="Enter your email" required />
+            </Routes>} name="form">
+                <input className=" border-2 p-2 m-2 outline-0" type="email" name="email" placeholder="Enter your email" required />
                 <br />
-                <input className=" border-2 p-2 m-2" type="text" name="name" placeholder="Enter your name" />
+                <input className=" border-2 p-2 m-2 outline-0" type="text" name="name" placeholder="Enter your name" />
                 <br />
-                <input className=" border-2 p-2 m-2" type="password" name="password" placeholder="Create a password" />
+                <input className=" border-2 p-2 m-2 outline-0" type="password" name="password" placeholder="Create a password" />
                 <br />
                 <button onClick={handleSubmit} className=" border-2 cursor-pointer">Submit</button>
             </form>
