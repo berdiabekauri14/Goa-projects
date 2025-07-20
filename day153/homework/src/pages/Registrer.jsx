@@ -28,7 +28,6 @@ export default React.memo(function Registrer() {
         <div>
             <header>
                 <Routes>
-                    <Route path="/day153/homework/src/pages/Home.jsx" element={<Home />} />
                     <Route path="/day153/homework/src/pages/About.jsx" element={<About />} />
                     <Route path="/day153/homework/src/pages/Registrer.jsx" element={<Registrer />} />
                     <Route path="/day153/homework/src/pages/Profile.jsx" element={<Profile />} />
@@ -38,9 +37,7 @@ export default React.memo(function Registrer() {
 
             <h1 className=" text-2xl">Registrer</h1>
 
-            <form action={<Routes>
-                <Route path="/day153/homework/src/pages/Home.jsx" element={<Home />} />
-            </Routes>} name="form">
+            <form name="form">
                 <input className=" border-2 p-2 m-2 outline-0" type="email" name="email" placeholder="Enter your email" required />
                 <br />
                 <input className=" border-2 p-2 m-2 outline-0" type="text" name="name" placeholder="Enter your name" />

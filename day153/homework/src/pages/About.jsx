@@ -10,7 +10,6 @@ export default React.memo(function About() {
         <div id="about" className=" text-center">
             <header>
                 <Routes>
-                        <Route path="/day153/homework/src/pages/Home.jsx/*" element={<Home />} />
                         <Route path="/day153/homework/src/pages/About.jsx/*" element={<About />} />
                         <Route path="/day153/homework/src/pages/Registrer.jsx/*" element={<Registrer />} />
                         <Route path="/day153/homework/src/pages/Profile.jsx/*" element={<Profile />} />
