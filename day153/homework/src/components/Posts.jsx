@@ -28,7 +28,7 @@ export default React.memo(function Posts() {
             <br />
             <div key={data.id}>
                 <header>
-                    <p>User {data.id}</p>
+                    <p>Post {data.id}</p>
                     <br />
                     <h1>{data.title}</h1>
                     <br />

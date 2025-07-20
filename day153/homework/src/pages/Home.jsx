@@ -5,12 +5,13 @@ import Registrer from "./Registrer"
 import Profile from "./Profile"
 import Posts from "../components/Posts.jsx"
 import Nav from "../components/Nav.jsx"
+import img from "../assets/facebook.png"
 
 export default React.memo(function Home() {
     return (
         <div className=" text-center">
             <header className=" text-shadow-white bg-blue-700 text-white">
-                <h1 className=" underline text-2xl">Facebook clone</h1>
+                <h1 className=" underline text-2xl"><span className=" flex justify-center items-center"><img src={img} alt="img" width={50} /></span> Facebook</h1>
                 <br />
                 <Nav />
             </header>
