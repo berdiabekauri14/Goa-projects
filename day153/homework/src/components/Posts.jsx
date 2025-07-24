@@ -24,13 +24,11 @@ export default React.memo(function Posts() {
 
     return (
         <div>
-            <h1 className=" text-2xl">Posts</h1>
+            <h1 className=" text-3xl">Posts</h1>
             <br />
             <div key={data.id}>
                 <header>
-                    <p>Post {data.id}</p>
-                    <br />
-                    <h1>{data.title}</h1>
+                    <h1 className=" text-2xl">{data.title}</h1>
                     <br />
                     <p>{data.body}</p>
                 </header>
@@ -42,6 +40,5 @@ export default React.memo(function Posts() {
                 <p>Views: {data.views}</p>
             </div>
         </div>
-            
     )
 })
