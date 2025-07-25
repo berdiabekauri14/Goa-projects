@@ -41,6 +41,7 @@ export default React.memo(function Profile() {
 
         localStorage.removeItem("description")
         localStorage.removeItem("image")
+        alert("Your post has been deleted")
     }
 
     const likePost = () => {
