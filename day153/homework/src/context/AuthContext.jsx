@@ -40,6 +40,7 @@ export default function AuthProvider({ children }) {
     const logout = () => {
         setUser(null)
         navigate("../pages/Home.jsx")
+        alert("You succesfuly Logged out from this account!")
     }
 
     return (

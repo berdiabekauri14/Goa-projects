@@ -16,7 +16,7 @@ export default React.memo(function Nav() {
                     <li><Link to="/day153/homework/src/pages/Profile.jsx">Profile</Link></li>
                     {
                         user !== null ? (
-                            <li onClick={logout} className=" cursor-pointer">Logout</li>
+                            <li onClick={logout}>Logout</li>
                         ) : (
                             <li></li>
                         )
