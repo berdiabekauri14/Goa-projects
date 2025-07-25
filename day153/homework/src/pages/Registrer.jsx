@@ -45,7 +45,7 @@ export default React.memo(function Registrer() {
                 <br />
                 <input className=" border-2 p-2 m-2 outline-0" type="password" name="password" placeholder="Create a password" />
                 <br />
-                <button onClick={handleSubmit} className=" border-2 cursor-pointer">Submit</button>
+                <button onClick={handleSubmit} className=" border-2 border-blue-700 cursor-pointer p-2">Submit</button>
             </form>
         </div>
     )

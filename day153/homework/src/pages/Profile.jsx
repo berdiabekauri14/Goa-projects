@@ -68,7 +68,7 @@ export default React.memo(function Profile() {
                     <br />
                     <input type="text" name="upload" className=" border-2 p-2 m-2 outline-0" placeholder="Upload an image" />
                     <br />
-                    <button className=" border-2 cursor-pointer" onClick={createPost}>Create post</button>
+                    <button className=" border-2 border-blue-700 cursor-pointer p-2" onClick={createPost}>Create post</button>
                 </form>
                 <br />
                 <div>
@@ -80,8 +80,8 @@ export default React.memo(function Profile() {
                     <br />
                     <p>Likes: {like}</p>
                     <br />
-                    <button className=" border-2 cursor-pointer m-0.5" onClick={likePost}>Like post</button>
-                    <button className=" border-2 cursor-pointer m-0.5" onClick={dislikePost}>Dislike post</button>
+                    <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={likePost}>👍</button>
+                    <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={dislikePost}>👎</button>
                 </div>
             </section>
         </div>

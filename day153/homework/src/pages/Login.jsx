@@ -38,7 +38,7 @@ export default function Login() {
                 <br />
                 <input className=" border-2 p-2 m-2 outline-0" type="password" name="password" placeholder="Enter your password" />
                 <br />
-                <button className=" border-2 cursor-pointer" onClick={handleSubmit}>Submit</button>
+                <button className=" border-2 border-blue-700 cursor-pointer p-2" onClick={handleSubmit}>Submit</button>
             </form>
         </div>
     )
