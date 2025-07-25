@@ -75,7 +75,7 @@ export default React.memo(function Profile() {
                     <p>{localStorage.getItem("description")}</p>
                     <br />
                     <div className=" flex justify-center items-center">
-                        <img src={localStorage.getItem("image")} width={300} alt="uploaded photo" />
+                        <img src={localStorage.getItem("image")} width={300} />
                     </div>
                     <br />
                     <p>Likes: {like}</p>
