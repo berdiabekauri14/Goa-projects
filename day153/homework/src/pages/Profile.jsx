@@ -36,6 +36,13 @@ export default React.memo(function Profile() {
         localStorage.setItem("image", formData.imgOrVid)
     }
 
+    const deletePost = e => {
+        e.preventDefault()
+
+        localStorage.removeItem("description")
+        localStorage.removeItem("image")
+    }
+
     const likePost = () => {
         setLike(like + 1);
     }
@@ -59,7 +66,6 @@ export default React.memo(function Profile() {
             <br />
             <section>
                 <h2 className=" text-3xl m-1">Berdia</h2>
-                <h3>This account was created in: <span className=" text-2xl">{Date()}</span></h3>
             </section>
             <section>
                 <h1>Your Posts</h1>
@@ -72,16 +78,22 @@ export default React.memo(function Profile() {
                 </form>
                 <br />
                 <div>
-                    <p>{localStorage.getItem("description")}</p>
-                    <br />
-                    <div className=" flex justify-center items-center">
-                        <img src={localStorage.getItem("image")} width={300} />
+                    <div>
+                        <p>{localStorage.getItem("description")}</p>
+                        <br />
+                        <div className=" flex justify-center items-center">
+                            <img src={localStorage.getItem("image")} width={300} />
+                        </div>
                     </div>
                     <br />
-                    <p>Likes: {like}</p>
-                    <br />
-                    <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={likePost}>👍</button>
-                    <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={dislikePost}>👎</button>
+                    <div>
+                        <p>Likes: {like}</p>
+                        <br />
+                        <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={likePost}>👍</button>
+                        <button className=" border-2 border-blue-700 cursor-pointer p-2 m-0.5" onClick={dislikePost}>👎</button>
+                        <br />
+                        <button className=" border-2 border-red-700 cursor-pointer p-2 m-0.5" onClick={deletePost}>Delete Post</button>
+                    </div>
                 </div>
             </section>
         </div>
