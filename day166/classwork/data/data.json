@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Grand Canyon Adventure",
+    "location": "Arizona, USA",
+    "duration_days": 3,
+    "price_usd": 499,
+    "highlights": ["Hiking", "Helicopter Ride", "River Rafting"]
+  },
+  {
+    "id": 2,
+    "name": "Safari in Serengeti",
+    "location": "Tanzania",
+    "duration_days": 7,
+    "price_usd": 1800,
+    "highlights": ["Wildlife Watching", "Camping", "Hot Air Balloon"]
+  },
+  {
+    "id": 3,
+    "name": "Paris City Lights",
+    "location": "Paris, France",
+    "duration_days": 4,
+    "price_usd": 950,
+    "highlights": ["Eiffel Tower", "Louvre Museum", "Seine River Cruise"]
+  },
+  {
+    "id": 4,
+    "name": "Tokyo Explorer",
+    "location": "Tokyo, Japan",
+    "duration_days": 5,
+    "price_usd": 1200,
+    "highlights": ["Shibuya Crossing", "Sushi Tasting", "Mt. Fuji Day Trip"]
+  },
+  {
+    "id": 5,
+    "name": "Machu Picchu Trek",
+    "location": "Peru",
+    "duration_days": 6,
+    "price_usd": 1400,
+    "highlights": ["Inca Trail", "Ancient Ruins", "Local Cuisine"]
+  },
+  {
+    "id": 6,
+    "name": "Great Barrier Reef Dive",
+    "location": "Queensland, Australia",
+    "duration_days": 3,
+    "price_usd": 1100,
+    "highlights": ["Scuba Diving", "Snorkeling", "Coral Viewing"]
+  },
+  {
+    "id": 7,
+    "name": "Northern Lights Expedition",
+    "location": "Reykjavik, Iceland",
+    "duration_days": 4,
+    "price_usd": 1300,
+    "highlights": ["Aurora Borealis", "Glacier Hiking", "Hot Springs"]
+  },
+  {
+    "id": 8,
+    "name": "Rome Historical Tour",
+    "location": "Rome, Italy",
+    "duration_days": 3,
+    "price_usd": 800,
+    "highlights": ["Colosseum", "Vatican City", "Roman Forum"]
+  },
+  {
+    "id": 9,
+    "name": "New Zealand Adventure",
+    "location": "Queenstown, New Zealand",
+    "duration_days": 7,
+    "price_usd": 2100,
+    "highlights": ["Bungee Jumping", "Milford Sound", "Hiking"]
+  },
+  {
+    "id": 10,
+    "name": "Egyptian Wonders",
+    "location": "Cairo, Egypt",
+    "duration_days": 5,
+    "price_usd": 1250,
+    "highlights": ["Pyramids of Giza", "Nile Cruise", "Museum of Antiquities"]
+  }
+]
