@@ -1,0 +1,62 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2020,
+        "color": "Blue"
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "color": "Red"
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "color": "Black"
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2018,
+        "color": "White"
+    },
+    {
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2022,
+        "color": "Silver"
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "color": "Gray"
+    },
+    {
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2019,
+        "color": "Green"
+    },
+    {
+        "make": "Volkswagen",
+        "model": "Jetta",
+        "year": 2021,
+        "color": "Yellow"
+    },
+    {
+        "make": "Subaru",
+        "model": "Impreza",
+        "year": 2018,
+        "color": "Blue"
+    },
+    {
+        "make": "Mazda",
+        "model": "3",
+        "year": 2022,
+        "color": "Red"
+    }
+]
