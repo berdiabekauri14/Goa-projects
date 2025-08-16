@@ -99,6 +99,12 @@ const updateMovie = (req, res) => {
             message: "404 not found"
         })
     }
+
+    if(title) movie.title = title;
+    if(year) movie.year = year;
+    if(genre) movie.genre = genre;
+
+    res.json(post);
 }
 
 module.exports = { getMovies, getMovie, createMovie, deleteMovie, updateMovie }
