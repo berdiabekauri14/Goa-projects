@@ -51,7 +51,7 @@ const deleteHotel = (req, res) => {
     if (hotelIndex === -1) {
         return res.status(404).json({
             status: "fail",
-            message: "Post cant be found!"
+            message: "Movie cant be found!"
         });
     }
 
