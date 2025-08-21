@@ -1,0 +1,1 @@
+// SQL-ის და NoSQL-ის პრეზენტაცია უნდა გაგვეკეთებინა: https://docs.google.com/presentation/d/1UFJyTG8aetSw8CedV3l5xKVpyB5nCcSenqumdiEOoXA/edit?usp=sharing
